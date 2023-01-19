@@ -4,5 +4,5 @@ Hi there 👋
 <!--END_SECTION:badges-->
 
 <picture>
-  <img src="/github-metrics.svg" alt="Metrics">
+  <img src="/metrics.classic.svg" alt="Metrics">
 </picture>
