@@ -1,6 +1,5 @@
-name: Example
+name: Metrics
 on: [push]
-uses: lowlighter/metrics@latest
 with:
   filename: metrics.classic.svg
   token: ${{ secrets.GH_TOKEN }}
