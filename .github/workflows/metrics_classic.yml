@@ -6,3 +6,12 @@ with:
   token: ${{ secrets.GH_TOKEN }}
   base: header, repositories
   plugin_lines: yes
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
