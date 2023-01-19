@@ -1,4 +1,5 @@
 name: Example
+on: [push]
 uses: lowlighter/metrics@latest
 with:
   filename: metrics.classic.svg
